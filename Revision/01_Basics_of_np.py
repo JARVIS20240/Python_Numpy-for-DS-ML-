@@ -46,6 +46,7 @@ print(f"Change Data type of 1D float64 to int = {arr_1d.astype(int, )},data Type
 
 # MCreating Arrays:
 # np.zeros((rows,cols))
+<<<<<<< HEAD
 zero = np.zeros((3,5))
 print(zero)
 
@@ -72,3 +73,16 @@ print(range)
 # start = time.time()
 # np_arrays = np.arange(100000000) * 2
 # print("\n numpy array operation time: ", time.time() - start)
+
+
+
+# Differance Bet.. List adn Nparray:
+import time
+start = time.time()
+py_lists = [i*2 for i in range(100000000)]
+print("\n list operation time: ", time.time() - start)
+
+start = time.time()
+np_arrays = np.arange(100000000) * 2
+print("\n numpy array operation time: ", time.time() - start)
+
