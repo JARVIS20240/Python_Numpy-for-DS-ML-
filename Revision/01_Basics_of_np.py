@@ -64,25 +64,12 @@ print(range)
 
 # np.random.rand(size)
 
-# # Differance Bet.. List adn Nparray:
-# import time
-# start = time.time()
-# py_lists = [i*2 for i in range(100000000)]
-# print("\n list operation time: ", time.time() - start)
-
-# start = time.time()
-# np_arrays = np.arange(100000000) * 2
-# print("\n numpy array operation time: ", time.time() - start)
-
-
-
 # Differance Bet.. List adn Nparray:
 import time
 start = time.time()
-py_lists = [i*2 for i in range(100000000)]
+py_lists = [i*2 for i in range(10000)]
 print("\n list operation time: ", time.time() - start)
 
 start = time.time()
-np_arrays = np.arange(100000000) * 2
+np_arrays = np.arange(10000) * 2
 print("\n numpy array operation time: ", time.time() - start)
-

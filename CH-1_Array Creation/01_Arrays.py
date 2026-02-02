@@ -1,17 +1,17 @@
 import numpy as np
 #Scaler = a single no OR [0D Array]
 sc = 10 #or
-<<<<<<< HEAD
+
 scale = np.array([10])
 
 print("Shape of Scaler: 0D =",scale.shape)
 print("Size of Scaler:",scale.ndim)
-=======
+
 sclae = np.array(10)
 
 print("Shape of Scaler: 0D =",sclae.shape)
 print("Size of Scaler:",sclae.ndim)
->>>>>>> 77d0007df29790e3781d58eda327d27040b26e50
+
 
 #Vactor = 1D Array (list)
 vact = [10,20,30]
