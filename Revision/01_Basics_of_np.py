@@ -63,13 +63,15 @@ range = np.arange(2, 50, 2)
 print(range)
 
 # np.random.rand(size)
+random_1= np.random.random((2,3))
+print(random_1)
 
-# Differance Bet.. List adn Nparray:
-import time
-start = time.time()
-py_lists = [i*2 for i in range(10000)]
-print("\n list operation time: ", time.time() - start)
+random_2 = np.random.rand(3, 2)
+print(random_2)
 
-start = time.time()
-np_arrays = np.arange(10000) * 2
-print("\n numpy array operation time: ", time.time() - start)
+b = np.random.randn(3, 2)
+print(b)
+
+c = np.random.randint(1, 10, size=(2, 3, 5)) #cretae a 3D array np.random.randint(dimention, rows, columns)
+print(c.ndim)
+print(c)
