@@ -46,7 +46,7 @@ print(f"Change Data type of 1D float64 to int = {arr_1d.astype(int, )},data Type
 
 # MCreating Arrays:
 # np.zeros((rows,cols))
-<<<<<<< HEAD
+
 zero = np.zeros((3,5))
 print(zero)
 
